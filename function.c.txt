@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+void main()
+{
+    int a,b;
+    printf("\nEnter Two Values:");
+    scanf("%d%d",&a,&b);
+    add(a,b);
+    sub(a,b);
+    mult(a,b);
+    div(a,b);
+    getch();
+}
+add(int x,int y)
+{
+    int z;
+    z=x+y;
+    printf("Addition:%d\n",z);
+    return 0;
+}
+sub(int x,int y)
+{
+    int z;
+    z=x-y;
+    printf("Substraction:%d\n",z);
+    return 0;
+}
+mult(int x,int y)
+{
+    int z;
+    z=x*y;
+    printf("Multiplication:%d\n",z);
+    return 0;
+}
+div(int x,int y)
+{
+    int z;
+    z=x/y;
+    printf("Division:%d\n",z);
+    return 0;
+}
