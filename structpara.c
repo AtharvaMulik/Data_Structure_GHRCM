@@ -16,8 +16,8 @@ struct student accept()
 {
 struct student obj1;
 printf("\n Enter Name:");
-scanf("%s",obj.name);
+scanf("%s",obj1.name);
 printf("\n Enter Roll_No:");
-scanf("%d",&obj.rollno);
+scanf("%d",&obj1.rollno);
 return(obj1);
 }
