@@ -25,6 +25,6 @@ swap1(a,b);
 printf("\nA = %d",a);
 printf("\nB = %d",b);
 swap2(&a,&b);
-printf("\nA = %d",x);
-printf("\nB = %d",y );
+printf("\nA = %d",a);
+printf("\nB = %d",b);
 }
